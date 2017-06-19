@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00AF0FCFE62C8D73989853BE /* Pods_VolumeSteps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E69E5B1A954B15D14B7E5A8 /* Pods_VolumeSteps.framework */; };
 		9A0A95E91EF1C6B1006B01A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A95E81EF1C6B1006B01A9 /* AppDelegate.swift */; };
 		9A0A95EB1EF1C6B1006B01A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0A95EA1EF1C6B1006B01A9 /* ViewController.swift */; };
 		9A0A95EE1EF1C6B1006B01A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0A95EC1EF1C6B1006B01A9 /* Main.storyboard */; };
@@ -14,14 +15,13 @@
 		9A0A95F31EF1C6B1006B01A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0A95F11EF1C6B1006B01A9 /* LaunchScreen.storyboard */; };
 		9A0A95FC1EF1C6C1006B01A9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0A95FB1EF1C6C1006B01A9 /* CoreMotion.framework */; };
 		9A97DD211EF1D2C100BF48E2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A97DD201EF1D2C100BF48E2 /* MediaPlayer.framework */; };
-		9A97DD341EF1DFED00BF48E2 /* JFMinimalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A97DD2B1EF1DFED00BF48E2 /* JFMinimalNotification.m */; };
-		9A97DD351EF1DFED00BF48E2 /* JFMinimalNotificationArt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A97DD2D1EF1DFED00BF48E2 /* JFMinimalNotificationArt.m */; };
-		9A97DD361EF1DFED00BF48E2 /* NSInvocation+Constructors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A97DD2F1EF1DFED00BF48E2 /* NSInvocation+Constructors.m */; };
-		9A97DD371EF1DFED00BF48E2 /* UIColor+JFMinimalNotificationColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A97DD311EF1DFED00BF48E2 /* UIColor+JFMinimalNotificationColors.m */; };
-		9A97DD381EF1DFED00BF48E2 /* UIView+Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A97DD331EF1DFED00BF48E2 /* UIView+Round.m */; };
+		9A97DD3F1EF3313100BF48E2 /* characterwalking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A97DD3E1EF3313100BF48E2 /* characterwalking.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30D59636935E09CC1B97607A /* Pods-VolumeSteps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolumeSteps.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolumeSteps/Pods-VolumeSteps.release.xcconfig"; sourceTree = "<group>"; };
+		4275557F0D3B97EF8EFD9AEC /* Pods-VolumeSteps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolumeSteps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolumeSteps/Pods-VolumeSteps.debug.xcconfig"; sourceTree = "<group>"; };
+		8E69E5B1A954B15D14B7E5A8 /* Pods_VolumeSteps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolumeSteps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A95E51EF1C6B1006B01A9 /* VolumeSteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeSteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0A95E81EF1C6B1006B01A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A0A95EA1EF1C6B1006B01A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +31,8 @@
 		9A0A95F41EF1C6B1006B01A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A0A95FB1EF1C6C1006B01A9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		9A97DD201EF1D2C100BF48E2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		9A97DD251EF1DF4400BF48E2 /* VolumeSteps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VolumeSteps-Bridging-Header.h"; sourceTree = "<group>"; };
-		9A97DD2A1EF1DFED00BF48E2 /* JFMinimalNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMinimalNotification.h; sourceTree = "<group>"; };
-		9A97DD2B1EF1DFED00BF48E2 /* JFMinimalNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMinimalNotification.m; sourceTree = "<group>"; };
-		9A97DD2C1EF1DFED00BF48E2 /* JFMinimalNotificationArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMinimalNotificationArt.h; sourceTree = "<group>"; };
-		9A97DD2D1EF1DFED00BF48E2 /* JFMinimalNotificationArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMinimalNotificationArt.m; sourceTree = "<group>"; };
-		9A97DD2E1EF1DFED00BF48E2 /* NSInvocation+Constructors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Constructors.h"; sourceTree = "<group>"; };
-		9A97DD2F1EF1DFED00BF48E2 /* NSInvocation+Constructors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Constructors.m"; sourceTree = "<group>"; };
-		9A97DD301EF1DFED00BF48E2 /* UIColor+JFMinimalNotificationColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JFMinimalNotificationColors.h"; sourceTree = "<group>"; };
-		9A97DD311EF1DFED00BF48E2 /* UIColor+JFMinimalNotificationColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JFMinimalNotificationColors.m"; sourceTree = "<group>"; };
-		9A97DD321EF1DFED00BF48E2 /* UIView+Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Round.h"; sourceTree = "<group>"; };
-		9A97DD331EF1DFED00BF48E2 /* UIView+Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Round.m"; sourceTree = "<group>"; };
+		9A97DD3B1EF2E41E00BF48E2 /* VolumeSteps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VolumeSteps-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A97DD3E1EF3313100BF48E2 /* characterwalking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = characterwalking.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +42,7 @@
 			files = (
 				9A97DD211EF1D2C100BF48E2 /* MediaPlayer.framework in Frameworks */,
 				9A0A95FC1EF1C6C1006B01A9 /* CoreMotion.framework in Frameworks */,
+				00AF0FCFE62C8D73989853BE /* Pods_VolumeSteps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +55,7 @@
 				9A0A95E71EF1C6B1006B01A9 /* VolumeSteps */,
 				9A0A95E61EF1C6B1006B01A9 /* Products */,
 				9A0A95FA1EF1C6C1006B01A9 /* Frameworks */,
+				C8892503B916C93D631E77DC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,13 +70,14 @@
 		9A0A95E71EF1C6B1006B01A9 /* VolumeSteps */ = {
 			isa = PBXGroup;
 			children = (
-				9A97DD221EF1DEE100BF48E2 /* Notifications */,
 				9A0A95E81EF1C6B1006B01A9 /* AppDelegate.swift */,
 				9A0A95EA1EF1C6B1006B01A9 /* ViewController.swift */,
 				9A0A95EC1EF1C6B1006B01A9 /* Main.storyboard */,
 				9A0A95EF1EF1C6B1006B01A9 /* Assets.xcassets */,
+				9A97DD3E1EF3313100BF48E2 /* characterwalking.gif */,
 				9A0A95F11EF1C6B1006B01A9 /* LaunchScreen.storyboard */,
 				9A0A95F41EF1C6B1006B01A9 /* Info.plist */,
+				9A97DD3B1EF2E41E00BF48E2 /* VolumeSteps-Bridging-Header.h */,
 			);
 			path = VolumeSteps;
 			sourceTree = "<group>";
@@ -93,34 +87,18 @@
 			children = (
 				9A97DD201EF1D2C100BF48E2 /* MediaPlayer.framework */,
 				9A0A95FB1EF1C6C1006B01A9 /* CoreMotion.framework */,
+				8E69E5B1A954B15D14B7E5A8 /* Pods_VolumeSteps.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9A97DD221EF1DEE100BF48E2 /* Notifications */ = {
+		C8892503B916C93D631E77DC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A97DD291EF1DFDF00BF48E2 /* JFMinimalNotification */,
-				9A97DD251EF1DF4400BF48E2 /* VolumeSteps-Bridging-Header.h */,
+				4275557F0D3B97EF8EFD9AEC /* Pods-VolumeSteps.debug.xcconfig */,
+				30D59636935E09CC1B97607A /* Pods-VolumeSteps.release.xcconfig */,
 			);
-			name = Notifications;
-			sourceTree = "<group>";
-		};
-		9A97DD291EF1DFDF00BF48E2 /* JFMinimalNotification */ = {
-			isa = PBXGroup;
-			children = (
-				9A97DD2A1EF1DFED00BF48E2 /* JFMinimalNotification.h */,
-				9A97DD2B1EF1DFED00BF48E2 /* JFMinimalNotification.m */,
-				9A97DD2C1EF1DFED00BF48E2 /* JFMinimalNotificationArt.h */,
-				9A97DD2D1EF1DFED00BF48E2 /* JFMinimalNotificationArt.m */,
-				9A97DD2E1EF1DFED00BF48E2 /* NSInvocation+Constructors.h */,
-				9A97DD2F1EF1DFED00BF48E2 /* NSInvocation+Constructors.m */,
-				9A97DD301EF1DFED00BF48E2 /* UIColor+JFMinimalNotificationColors.h */,
-				9A97DD311EF1DFED00BF48E2 /* UIColor+JFMinimalNotificationColors.m */,
-				9A97DD321EF1DFED00BF48E2 /* UIView+Round.h */,
-				9A97DD331EF1DFED00BF48E2 /* UIView+Round.m */,
-			);
-			name = JFMinimalNotification;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A0A95F71EF1C6B1006B01A9 /* Build configuration list for PBXNativeTarget "VolumeSteps" */;
 			buildPhases = (
+				90AE954789F9CEC9C0134BE2 /* [CP] Check Pods Manifest.lock */,
 				9A0A95E11EF1C6B1006B01A9 /* Sources */,
 				9A0A95E21EF1C6B1006B01A9 /* Frameworks */,
 				9A0A95E31EF1C6B1006B01A9 /* Resources */,
+				5F64C43F5E1B6C54D9690E38 /* [CP] Embed Pods Frameworks */,
+				C56D6E86A363B3B1C451B708 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0A95F31EF1C6B1006B01A9 /* LaunchScreen.storyboard in Resources */,
+				9A97DD3F1EF3313100BF48E2 /* characterwalking.gif in Resources */,
 				9A0A95F01EF1C6B1006B01A9 /* Assets.xcassets in Resources */,
 				9A0A95EE1EF1C6B1006B01A9 /* Main.storyboard in Resources */,
 			);
@@ -191,18 +173,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F64C43F5E1B6C54D9690E38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolumeSteps/Pods-VolumeSteps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AE954789F9CEC9C0134BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C56D6E86A363B3B1C451B708 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolumeSteps/Pods-VolumeSteps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A0A95E11EF1C6B1006B01A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A0A95EB1EF1C6B1006B01A9 /* ViewController.swift in Sources */,
-				9A97DD361EF1DFED00BF48E2 /* NSInvocation+Constructors.m in Sources */,
-				9A97DD371EF1DFED00BF48E2 /* UIColor+JFMinimalNotificationColors.m in Sources */,
-				9A97DD381EF1DFED00BF48E2 /* UIView+Round.m in Sources */,
 				9A0A95E91EF1C6B1006B01A9 /* AppDelegate.swift in Sources */,
-				9A97DD351EF1DFED00BF48E2 /* JFMinimalNotificationArt.m in Sources */,
-				9A97DD341EF1DFED00BF48E2 /* JFMinimalNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,13 +348,15 @@
 		};
 		9A0A95F81EF1C6B1006B01A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4275557F0D3B97EF8EFD9AEC /* Pods-VolumeSteps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VolumeSteps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = polar.com.VolumeSteps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polar.volumesteps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VolumeSteps/VolumeSteps-Bridging-Header.h";
@@ -340,13 +367,15 @@
 		};
 		9A0A95F91EF1C6B1006B01A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D59636935E09CC1B97607A /* Pods-VolumeSteps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VolumeSteps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = polar.com.VolumeSteps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.polar.volumesteps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VolumeSteps/VolumeSteps-Bridging-Header.h";
