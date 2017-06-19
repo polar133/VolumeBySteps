@@ -14,7 +14,6 @@ class ViewController: UIViewController {
 
     @IBOutlet var volumeText : UILabel!
     @IBOutlet var walkingImage: GIFImageView!
-    @IBOutlet var startButton: UIButton!
     
     let pedoMeter = CMPedometer()
     var steps = 0
@@ -33,7 +32,6 @@ class ViewController: UIViewController {
         self.initVolume()
         self.updateVolumeText()
         
-        self.startButton.setTitle("Stop", for: .normal)
         self.initSteps()
     }
     
@@ -112,16 +110,6 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func startWalking(){
-        if(self.isWalking == true){
-            self.startButton.setTitle("Start", for: .normal)
-            self.stopCountSteps()
-        }else{
-            self.startButton.setTitle("Stop", for: .normal)
-            self.initSteps()
-        }
-    }
-    
     func setVolume(value : Float){
         if (0 ... 1).contains(value) {
             self.volumen = value
@@ -134,8 +122,7 @@ class ViewController: UIViewController {
         self.volumeText.text = "\(self.volumen * 100)"
     }
     
-    func random(_ range:Range<Int>) -> Float
-    {
+    func random(_ range:Range<Int>) -> Float{
         return Float(range.lowerBound + Int(arc4random_uniform(UInt32(range.upperBound - range.lowerBound))))
     }
     
